@@ -7,8 +7,8 @@ axios.defaults.headers.post['Accept'] = 'application/json';
 
 export const LoremPicsumService = () => {
   const urlGetAll = '/v2/list';
-  //Los endpoints que tienen llaves con un texto dentro, quiere decir que le has de pasar algún valor /id/{image}/{size}, eso significa que image y size son valores que te dirá la documentación cómo se pasan.
-  const urlGetById = '/id/{image}/{size}';
+  //Los endpoints que tienen llaves con un texto dentro, quiere decir que le has de pasar algún valor /id/{image}/info, eso significa que image es un valor que le has de pasar, mira la documentación para más información.
+  const urlGetById = '/id/';
   /* Construye la url para el tercer endpoint
   const urlGetGrayscale = ''; */
 
@@ -17,8 +17,8 @@ export const LoremPicsumService = () => {
     return response;
   };
   
-  const getById = (id, size) => {
-    const response = axios.get(`${urlGetById}/${id}/${size}`);
+  const getById = (id) => {
+    const response = axios.get(`${urlGetById}/${id}/info`);
     return response;
   }; 
 
