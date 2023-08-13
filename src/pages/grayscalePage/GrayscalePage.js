@@ -8,7 +8,7 @@ function GrayscalePage() {
         <Navbar/>
         <ul>
             <p>INSTRUCCIONES</p>
-            <li>Crea los componentes que necesites para imprimir lo siguiente (siguiendo el ejemplo del componente PictureObject):</li>
+            <li>Crea los componentes que necesites para imprimir lo siguiente:</li>
             <ol>
                 <li>La fotografía (queremos ver la imagen en nuestra app, no queremos la url).</li>
             </ol>

@@ -20,7 +20,7 @@ function App() {
           <li>Crear la funcionalidad del servicio. Tienes un componente que tendrá las peticiones a la API, no harás las peticiones dentro de los componentes que renderizan el contenido, ya que queremos hacer un código limpio. Dentro de la carpeta "services" existe un archivo llamado "LoremPicsumService", deberás crear la funcionalidad para llamar a 3 endpoints, la primera será la llamada a los primeros 30 objetos que devuelve la API, la segunda será la llamada a un objeto por su id y la tercera será una llamada de un objeto en escala de grises.
             <ul>
               <li>PRIMER ENDPOINT: https://picsum.photos/v2/list</li>
-              <li>SEGUNDO ENDPOINT: https://picsum.photos/id/image/size</li>
+              <li>SEGUNDO ENDPOINT: https://picsum.photos/id/{"{id}"}/info</li>
               <li>TERCER ENDPOINT: descúbrelo tú misma dentro de la documentación y entiende como tiene que ser construida para recibirla.</li>
             </ul>
           </li>
