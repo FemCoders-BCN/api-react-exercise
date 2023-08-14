@@ -19,8 +19,9 @@ const Router = createBrowserRouter([
     {
       path: '/image',
       /* element: ¿qué falta aquí? */  
+      //si no recuerdas que elemento se debe asociar a esta ruta, revisa nuevamente las instrucciones del archivo App.js 
     }
-    //crea la ruta que te falta
+    //¿Qué ruta crees que te falta?
 ]);
 
 export default Router;

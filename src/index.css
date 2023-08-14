@@ -38,3 +38,11 @@ h1,
 h2 {
     text-align: center;
 }
+
+.ct-instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
